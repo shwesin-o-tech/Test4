@@ -1,0 +1,12 @@
+RewriteEngine on
+
+#login
+RewriteRule  ^login$ view/0-0_login/0-0-1_login.php [L,NC]
+
+#dashboard
+RewriteRule  ^home$ view/1-2_dashboard/dashboard.php [L,NC]
+
+#mycompany
+RewriteRule  ^company$ view/1-1_company/1-1-1_listing.php [L,NC]
+RewriteRule  ^create$ view/1-1_company/1-1-2_entry.php [L,NC]
+
